@@ -1,26 +1,104 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="p-5 bg-black text-green-400 flex justify-around flex-col sm:flex-row">
+        <p className="my-2 text-center">Título aqui</p>
+        <input type="text" placeholder='Digite algo'/>
+        <button className="bg-red-500 hover:bg-red-700 text-black p-2 my-3 rounded">Clique aqui</button>        
+      </div>
+
+        
+      <ul className="space-y-2 p-5">
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-red-50"></li>
+      <li className="bg-red-100"></li>
+      <li className="bg-red-200"></li>
+      <li className="bg-red-300"></li>
+      <li className="bg-red-400"></li>
+      <li className="bg-red-500"></li>
+      <li className="bg-red-600"></li>
+      <li className="bg-red-700"></li>
+      <li className="bg-red-800"></li>
+      <li className="bg-red-900"></li>
+    </ul>
+  </li>
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-yellow-50"></li>
+      <li className="bg-yellow-100"></li>
+      <li className="bg-yellow-200"></li>
+      <li className="bg-yellow-300"></li>
+      <li className="bg-yellow-400"></li>
+      <li className="bg-yellow-500"></li>
+      <li className="bg-yellow-600"></li>
+      <li className="bg-yellow-700"></li>
+      <li className="bg-yellow-800"></li>
+      <li className="bg-yellow-900"></li>
+    </ul>
+  </li>
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-green-50"></li>
+      <li className="bg-green-100"></li>
+      <li className="bg-green-200"></li>
+      <li className="bg-green-300"></li>
+      <li className="bg-green-400"></li>
+      <li className="bg-green-500"></li>
+      <li className="bg-green-600"></li>
+      <li className="bg-green-700"></li>
+      <li className="bg-green-800"></li>
+      <li className="bg-green-900"></li>
+    </ul>
+  </li>
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-blue-50"></li>
+      <li className="bg-blue-100"></li>
+      <li className="bg-blue-200"></li>
+      <li className="bg-blue-300"></li>
+      <li className="bg-blue-400"></li>
+      <li className="bg-blue-500"></li>
+      <li className="bg-blue-600"></li>
+      <li className="bg-blue-700"></li>
+      <li className="bg-blue-800"></li>
+      <li className="bg-blue-900"></li>
+    </ul>
+  </li>
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-purple-50"></li>
+      <li className="bg-purple-100"></li>
+      <li className="bg-purple-200"></li>
+      <li className="bg-purple-300"></li>
+      <li className="bg-purple-400"></li>
+      <li className="bg-purple-500"></li>
+      <li className="bg-purple-600"></li>
+      <li className="bg-purple-700"></li>
+      <li className="bg-purple-800"></li>
+      <li className="bg-purple-900"></li>
+    </ul>
+  </li>
+  <li>
+    <ul className="grid grid-cols-10 h-7">
+      <li className="bg-pink-50"></li>
+      <li className="bg-pink-100"></li>
+      <li className="bg-pink-200"></li>
+      <li className="bg-pink-300"></li>
+      <li className="bg-pink-400"></li>
+      <li className="bg-pink-500"></li>
+      <li className="bg-pink-600"></li>
+      <li className="bg-pink-700"></li>
+      <li className="bg-pink-800"></li>
+      <li className="bg-pink-900"></li>
+    </ul>
+  </li>
+</ul>
+    
     </div>
-  );
+  )
 }
 
 export default App;
