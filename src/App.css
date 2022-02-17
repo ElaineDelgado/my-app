@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -13,19 +16,86 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
-  min-height: 100vh;
+  color: #8effd7;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+input[type=text] {
+  margin: 20px;
+  padding: 10px;
+}
+
+.container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+
+div.postItem {
+  padding: 20px;
+}
+
+div.postItem article  {
+  margin: 20px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  cursor:pointer;
+  border-radius: 5px;
+  background-color: #42dfa8;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+
+button.btn-adicionar:hover {
+  opacity: .9;
+}
+
+div.moviesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end; 
+  max-width: 80%;
+}
+
+.cardMovie {
+  min-width: 10%;
+    max-width: 20%;
+    display: flex;
+    margin: 20px;
+    align-content: flex-start;
+    flex-direction: column;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +105,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p.erro-msg {
+  padding: 20px;
+  margin-bottom: 50px;
+  color: red;
+  background-color: #393f3c;
 }
